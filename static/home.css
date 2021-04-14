@@ -1,0 +1,468 @@
+/* Responsive handling */
+@media only screen and (min-width: 200px) and (max-width: 1160px) {
+  #intro {
+    height: 600px;
+    background-image: url("/static/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #session1 {
+    height: 1200px;
+    width: 100%;
+    max-width: 100%;
+    background-color: black;
+    color: white;
+    display: grid;
+    background: url("https://images.hdqwalls.com/download/minimal-music-shapes-8k-0w-3840x2160.jpg")
+      repeat fixed 20%; /* Parallax Scrolling Effect */
+    align-items: center;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 2rem;
+    justify-content: center;
+  }
+  .sectionimg {
+    /* position: relative; */
+    height: 253px;
+    width: 200px;
+    /* border: 2px solid red; */
+  }
+  .sect_text h2 {
+    font-size: 12px;
+    text-align: center;
+  }
+  .sect_text h4 {
+    font-size: 4px;
+    text-align: center;
+  }
+  #login_form_container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-right: 200px;
+    margin-left: 580px;
+    margin-top: 100px;
+    height: 332px;
+    width: 261px;
+    padding: 30px 31px;
+    border-radius: 12px;
+    font-family: "Hammersmith One";
+    text-align: center;
+    background: url(../static/loginbg.jpg) no-repeat center center/cover;
+  }
+  #login_form_container input {
+    width: 200px;
+    transition: all 0.4s;
+    padding: 10px 24px;
+    margin: 10px 22px;
+    border-radius: 8px;
+  }
+  #login_form_container input:hover {
+    transform: scale(1.2);
+    border: 2px solid black;
+  }
+  #login_form_container h2 {
+    color: white;
+    padding: 8px 8px;
+    margin: 12px 12px;
+    font-size: 30px;
+  }
+  #login_form_container h4 {
+    color: white;
+    display: inline-block;
+    padding: 8px 8px;
+    margin: 10px 5px;
+    font-size: 12px;
+  }
+  #login_form_container p {
+    display: inline-block;
+    color: white;
+    padding: 8px 8px;
+    margin-top: 22px;
+    font-size: 13px;
+  }
+  #login {
+    /* margin: 12px 100px; */
+    margin-top: 26px;
+    margin-left: 95px;
+    border-radius: 8px;
+    padding: 7px 3px;
+    display: inline-block;
+    width: 100px;
+    color: white;
+    background-color: coral;
+    cursor: pointer;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  #signup a h3 {
+    display: inline-block;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    /* margin: 12px 100px; */
+    margin-top: -31px;
+    cursor: pointer;
+    margin-left: -9px;
+    border-radius: 8px;
+    padding: -11px 3px;
+  }
+  #login_form_container a p:hover {
+    text-decoration: underline;
+  }
+  #login:hover {
+    background-color: darkorange;
+  }
+  #signup a h3:hover {
+    text-decoration: underline;
+  }
+  #forgot_password {
+    padding: 2px 4px;
+    margin-top: 19px;
+    margin-left: 4px;
+  }
+}
+@media only screen and (min-width: 1161px) {
+  #intro {
+    height: 600px;
+    background-image: url("/static/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #session1 {
+    height: 1794px;
+    width: 100%;
+    max-width: 100%;
+    background-color: black;
+    color: white;
+    display: grid;
+    background: url("https://images.hdqwalls.com/download/minimal-music-shapes-8k-0w-1280x720.jpg")
+      repeat fixed 100%; /* Parallax Scrolling Effect */
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    align-items: center;
+
+    grid-gap: 2rem;
+    grid-template-columns: 2fr 2fr;
+    /* grid-row-gap: 800px; */
+    justify-content: center;
+    /* grid-template-columns: mi
+    n-content;
+    grid-template-rows: min-content; */
+  }
+  .sectionimg {
+    /* position: relative; */
+    height: 453px;
+    width: 400px;
+    display: grid;
+
+    /* border: 2px solid red; */
+  }
+  #login_form_container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    margin-left: 744px;
+    margin-top: 100px;
+    height: 352px;
+    width: 300px;
+    padding: 30px 50px;
+    border-radius: 12px;
+    font-family: "Hammersmith One";
+    text-align: center;
+    background: url("../static/loginbg.jpg") no-repeat center center/cover;
+  }
+  #login_form_container input {
+    width: 200px;
+    transition: all 0.4s;
+    padding: 10px 24px;
+    margin: 10px 22px;
+    border-radius: 8px;
+  }
+  #login_form_container input:hover {
+    transform: scale(1.2);
+    border: 2px solid black;
+  }
+  #login_form_container h2 {
+    color: white;
+    padding: 8px 8px;
+    margin: 12px 12px;
+    font-size: 30px;
+  }
+  #login_form_container h4 {
+    color: white;
+    display: inline-block;
+    padding: 8px 8px;
+    margin: 10px 5px;
+    font-size: 12px;
+  }
+  #login_form_container p {
+    display: inline-block;
+    color: white;
+    padding: 8px 8px;
+    margin-top: 22px;
+    font-size: 13px;
+  }
+  #login {
+    /* margin: 12px 100px; */
+    margin-top: 26px;
+    margin-left: 95px;
+    border-radius: 8px;
+    padding: 7px 3px;
+    display: inline-block;
+    width: 100px;
+    color: white;
+    background-color: coral;
+    cursor: pointer;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  #signup a h3 {
+    display: inline-block;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    /* margin: 12px 100px; */
+    margin-top: -31px;
+    cursor: pointer;
+    margin-left: -9px;
+    border-radius: 8px;
+    padding: -11px 3px;
+  }
+  #login_form_container a p:hover {
+    text-decoration: underline;
+  }
+  #login:hover {
+    background-color: darkorange;
+  }
+  #signup a h3:hover {
+    text-decoration: underline;
+  }
+  #forgot_password {
+    padding: 2px 4px;
+    margin-top: 19px;
+    margin-left: 4px;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+#intro h1 {
+  color: red;
+  font-family: "Aclonica";
+  font-size: 45px;
+  padding: 83px 17px;
+  margin-left: -622px;
+  margin-right: 0px;
+  animation: title 2s 2s 1;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+#card1 {
+  float: left;
+  height: 226px;
+  width: 28%;
+  border-radius: 12px 12px;
+  padding-top: 100px;
+  margin-left: 24px;
+}
+@keyframes title {
+  from {
+    margin-left: -622px;
+    visibility: hidden;
+    margin-right: 0px;
+  }
+  to {
+    margin-left: 0px;
+    margin-right: 600px;
+    visibility: visible;
+    transform: translateX(40px);
+  }
+}
+#intro h3 {
+  font-family: "Courgette";
+  font-size: 30px;
+  color: white;
+  padding: 1px 19px;
+  margin: -37px 4px;
+  animation: subtitle 2s 4s 1;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes subtitle {
+  from {
+    margin-left: 300px;
+    visibility: hidden;
+    margin-right: 0px;
+  }
+  to {
+    margin-left: 50px;
+    visibility: visible;
+  }
+}
+.card {
+  border: 2px solid white;
+  height: 226px;
+  width: 28%;
+  border-radius: 12px;
+  padding: 3px 3px;
+  padding: 0px 3px;
+  margin-top: -145px;
+  margin-right: 36px;
+  text-align: center;
+}
+
+#enroll {
+  float: right;
+  padding: 5px 19px;
+  margin-right: 153px;
+  margin-top: -80px;
+  background-color: rgba(35, 248, 248, 0.884);
+  color: white;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 18px;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  animation: enrollbutton 2s 3s 1;
+  animation-fill-mode: forwards;
+  transform: rotate(180deg);
+}
+#enroll a {
+  color: white;
+  text-decoration: none;
+}
+#enroll:hover {
+  background-color: orange;
+  color: white;
+}
+#enroll:active {
+  background-color: red;
+}
+@keyframes enrollbutton {
+  from {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+#FreeClass {
+  float: right;
+  padding: 5px 19px;
+  margin-right: 107px;
+  margin-top: -12px;
+  background-color: rgb(51 247 71 /89%);
+  color: white;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 18px;
+  border-radius: 9px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.5s;
+  animation: FreeClassbutton 2s 3s 1;
+  animation-fill-mode: forwards;
+  transform: rotate(-180deg);
+}
+#FreeClass a {
+  text-decoration: none;
+  color: white;
+}
+#FreeClass:hover {
+  background-color: rgba(18, 71, 247, 0.904);
+  color: white;
+}
+#FreeClass:active {
+  background-color: aqua;
+}
+@keyframes FreeClassbutton {
+  from {
+    transform: rotate(-180deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.section1 h2 {
+  font-family: "Lobster";
+  font-size: 38px;
+  text-align: center;
+  margin: 34px 34px;
+  color: red;
+}
+.section1 h4 {
+  margin: 34px 34px;
+  padding: -1px 323px;
+  font-family: "Righteous";
+  font-size: 20px;
+  text-shadow: 2px 2px 1px black;
+}
+#sec1_text h2 {
+  color: red;
+  text-shadow: 4px 4px 4px yellow;
+}
+#sec2_text h2 {
+  color: rgb(245, 241, 12);
+  text-shadow: 4px 4px 4px purple;
+}
+#sec3_text h2 {
+  color: rgb(5, 252, 149);
+  text-shadow: 4px 4px 4px orange;
+}
+#sec4_text h2 {
+  text-shadow: 4px 4px 4px rgb(136, 255, 0);
+  color: rgb(12, 158, 243);
+}
+#section1_img1 {
+  animation: fade-in 2s 6s ease-in 1 forwards;
+  box-shadow: 14px 14px 31px cyan;
+  visibility: hidden;
+  margin-left: 89px;
+  margin-top: -69px;
+  margin-bottom: 2px;
+}
+
+#section1_img2 {
+  visibility: hidden;
+  animation: fade-in 2s 8s ease-in 1 forwards;
+  margin-top: -69px;
+  box-shadow: -14px -14px 31px orange;
+  margin-left: 116px;
+  margin-bottom: 2px;
+}
+#section1_img3 {
+  animation: fade-in 2s 10s ease-in 1 forwards;
+  margin-left: 33px;
+  visibility: hidden;
+  margin-left: 89px;
+  margin-top: -208px;
+  margin-bottom: 2px;
+  box-shadow: 14px 14px 31px palevioletred;
+}
+#section1_img4 {
+  animation: fade-in 2s 12s ease-in 1 forwards;
+  visibility: hidden;
+  margin-left: 116px;
+  margin-top: -208px;
+  margin-bottom: 2px;
+  box-shadow: -14px -14px 31px yellow;
+}
+@keyframes fade-in {
+  from {
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0.7, 0.7);
+  }
+  to {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+.fade-in-element {
+  animation: fade-in 1.4s;
+}
+#section2 {
+  height: 700px;
+  border-top: 12px solid rgba(230, 198, 20, 0.938);
+  background: url("../static/session2bg.jpg");
+}

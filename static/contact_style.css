@@ -1,0 +1,222 @@
+.container {
+  height: 903px;
+  width: 100%;
+  /* background-image: url("../static/contactbg.jpg"); */
+  background-image: url("../static/contactbg.jpg");
+  /* background-image: url("https://images.hdqwalls.com/download/minimal-shapes-sharp-4k-ob-1920x1200.jpg"); */
+  background-position: center;
+  background-size: cover;
+}
+
+.bounceInLeft {
+  -webkit-animation-name: bounceInLeft;
+  animation-name: bounceInLeft;
+}
+@media only screen and (min-width: 200px) and (max-width: 1160px) {
+  #heading {
+    color: white;
+    font-family: "Merriweather Sans";
+    font-size: 23px;
+    padding: 65px 17px;
+    margin-left: 44px;
+  }
+  #contact_us_img {
+    display: none;
+  }
+  #contactform {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    display: block;
+    float: right;
+    background: url("../static/contact_bg_final.jpg") no-repeat center
+      center/cover;
+    margin-top: 2px;
+    margin-left: 4px;
+    border-radius: 33px;
+    width: 463px;
+    height: 493px;
+    margin-right: 295px;
+    box-shadow: 14px 14px 3px rgba(0, 0, 0, 0.616);
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  #contactform input {
+    display: block;
+    padding: 15px 35px;
+    margin: 9px 67px;
+    border-radius: 12px;
+    width: 22vw;
+  }
+  #Reason {
+    display: flex;
+    padding: 15px 135px;
+    margin: 9px 67px;
+    height: 80px;
+    text-align: start;
+    justify-content: start;
+    border-radius: 12px;
+  }
+  #contactform h3 {
+    padding: 4px 2px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    margin-left: 167px;
+    font-family: "Merriweather Sans", sans-serif;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+  }
+  #submit {
+    float: right;
+    background-color: rgb(240 2 2 / 88%);
+    color: white;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 14px;
+    border-radius: 12px;
+    padding: 12px;
+    margin-right: 174px;
+    margin-top: 8px;
+    cursor: pointer;
+  }
+  #submit:hover {
+    background-color: rgb(13, 67, 245);
+    color: white;
+  }
+}
+@media only screen and (min-width: 1161px) {
+  #heading {
+    color: white;
+    font-family: "Merriweather Sans";
+    font-size: 23px;
+    padding: 65px 17px;
+    margin-left: 44px;
+  }
+  #contact_us_img {
+    float: left;
+    height: 400px;
+    width: 600px;
+    border-radius: 44px;
+    margin-left: 12px;
+    opacity: 0;
+    animation: fade-in 4s 4s 1 forwards;
+  }
+  #contactform {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    display: block;
+    float: right;
+    background: url("../static/contact_bg_final.jpg") no-repeat center
+      center/cover;
+    margin-top: -56px;
+    margin-left: 4px;
+    border-radius: 33px;
+    width: 463px;
+    height: 493px;
+    margin-right: 95px;
+    box-shadow: 14px 14px 3px rgba(0, 0, 0, 0.616);
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  #contactform input {
+    display: block;
+    padding: 15px 35px;
+    margin: 9px 67px;
+    border-radius: 12px;
+    width: 22vw;
+  }
+  #Reason {
+    display: flex;
+    padding: 15px 135px;
+    margin: 9px 67px;
+    height: 80px;
+    text-align: start;
+    justify-content: start;
+    border-radius: 12px;
+  }
+  #contactform h3 {
+    padding: 4px 2px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    margin-left: 167px;
+    font-family: "Merriweather Sans", sans-serif;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+  }
+  #submit {
+    float: right;
+    background-color: rgb(240 2 2 / 88%);
+    color: white;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 14px;
+    border-radius: 12px;
+    padding: 12px;
+    margin-right: 174px;
+    margin-top: 8px;
+    cursor: pointer;
+  }
+  #submit:hover {
+    background-color: rgb(13, 67, 245);
+    color: white;
+  }
+}
+
+#logo {
+  height: 180px;
+  width: 150px;
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+@-webkit-keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translateX(30px);
+  }
+  80% {
+    -webkit-transform: translateX(-10px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+
+@keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-2000px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(30px);
+  }
+  80% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.bounceInLeft {
+  -webkit-animation-name: bounceInLeft;
+  animation-name: bounceInLeft;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.7, 0.7);
+  }
+  to {
+    visibility: visible;
+    opacity: 1;
+  }
+}

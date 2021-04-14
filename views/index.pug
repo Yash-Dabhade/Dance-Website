@@ -1,0 +1,42 @@
+doctype html
+html
+    head
+        title Super-Dance-Academy
+        style
+            include ../static/style.css
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
+    body
+        nav#navbar
+            ul
+                li #[a(href="/") Home]
+                li #[a(href="/") Book Class ]
+                li #[a(href="/") About Us]
+                li #[a(href="/") Contact Us]
+        section#intro
+            h1 Super Dance Academy
+            h3 Learn from the Legends...
+            img(src="https://assets.rockettes.com/wp-content/uploads/2015/06/11741022_10153239325453551_8060414301275087317_o.jpg",
+            alt="")#card1
+            button#enroll Enroll Now
+            button#FreeClass Book Free Class 
+        div#session1.section1 
+            div         
+                img(src="../static/session1_B.jpg", alt="img")#section1_img1.sectionimg.hidden
+            div 
+                img(src="../static/session1_C.jpg", alt="img")#section1_img2.sectionimg.hidden
+            div 
+                img(src="../static/session1_D.jpg", alt="img")#section1_img3.sectionimg.hidden
+            div 
+                img(src="../static/session1_E.jpg", alt="img")#section1_img4.sectionimg.hidden
+
+        footer#foot
+        p
+        | This is our footer
+        script
+            include ../static/index.js

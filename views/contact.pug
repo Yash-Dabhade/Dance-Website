@@ -1,0 +1,38 @@
+extends base.pug
+block scripts 
+    script
+        include ../static/contact.js
+block style
+    style
+        include ../static/contact_style.css
+        include ../static/base.css
+block content 
+    .container
+        a(href='/')
+            img#logo(src="../static/logodance.png" alt="none") 
+        h2#heading Our team will contact you soon...
+        img#contact_us_img(src="../static/contact_us_img.jpg", alt="")
+        form(action="/contact" method="POST")#contactform.bounceInLeft
+            h3 CONTACT US 
+            input(type="text" name="first_name" id="first_name" placeholder="First  Name")
+            input(type="text" id="last_name" name="last_name"  placeholder="Last Name")
+            input(type="email" name="email" id="email" placeholder="Email")
+            input(type="password" name="password" id="password" placeholder="Password")
+            input(type="textarea" name="Reason" id="Reason" placeholder="Reason ")
+            button#submit Submit Now
+ 
+    footer#foot
+        h4#follow follow us on
+        a(href='https://www.instagram.com' target='_blank')
+        img#inst.foot_logo(src='../static/instagram2.png' alt='')
+        a(href='https://www.facebook.com' target='_blank')
+        img#face.foot_logo(src='../static/facebook.png' alt='')
+        a(href='https://www.linkedin.com' target='_blank')
+        img#link.foot_logo(src='../static/linkedin.png' alt='')
+        a(href='https://www.twitter.com' target='_blank')
+        img#twit.foot_logo(src='../static/twitter.png' alt='')
+        a(href='https://www.youtube.com' target='_blank')
+        img#yout.foot_logo(src='../static/youtube.png' alt='')        
+        h4#copy Super Dance Academy &copy; 2021
+
+        

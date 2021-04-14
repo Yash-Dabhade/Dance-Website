@@ -1,0 +1,66 @@
+extends base.pug
+block scripts 
+    script
+        include ../static/index.js
+block style
+    style
+        include ../static/home.css
+        include ../static/base.css
+block content 
+        section#intro
+            h1 Super Dance Academy
+            h3 Learn from the Legends...
+            img(src="https://assets.rockettes.com/wp-content/uploads/2015/06/11741022_10153239325453551_8060414301275087317_o.jpg",alt="")#card1
+            button#enroll
+                a(href="#login_form_container") Enroll Now
+            button#FreeClass 
+                a(href="/contact") Book Free Class 
+        div#session1.section1 
+            div#sec1       
+                img(src="../static/session1_B.jpg", alt="img")#section1_img1.sectionimg.hidden
+                #sec1_text.sect_text 
+                    h2 Step by step lessons
+                    h4 Our lessons are friendly with the beginners. Learn from the masters and master the dance style you are best matched with.No dance knowledge or practice is required to join.
+                
+            div#sec2        
+                img(src="../static/session1_C.jpg", alt="img")#section1_img2.sectionimg.hidden
+                #sec2_text.sect_text 
+                    h2 Master any dance style
+                    h4 We aim to make you master the dance style you prefferd within 3 months of span. Our experts also guides you to choose your dance style if you are not aware any of them 
+            div#sec3       
+                img(src="../static/session1_D.jpg", alt="img")#section1_img3.sectionimg.hidden
+                #sec3_text.sect_text 
+                    h2 Free participation in Dance Competitions 
+                    h4 Our academy organizes Dance Competitions every 6 months to give you the exposure to the real audience. All of them are free of cost for the students enrolled with our academy. 
+            div#sec4       
+                img(src="../static/session1_E.jpg", alt="img")#section1_img4.sectionimg.hidden  
+                #sec4_text.sect_text 
+                    h2 Get Free costumes after a year
+                    h4 We provide free costumes to the dancers enrolled with our academy for any live performances and Competitions. This perk is also absolutely free to the dancers enrolled with us for atleast a year
+        #section2
+                #login_form_container 
+                    h2 Login Now 
+                    form(action="/login" method="POST")#loginform
+                    input(type="email" name="email" id="emaillogin" placeholder="Email")
+                    input(type="password" name="password" id="passwordlogin" placeholder="Password")
+                    button#login Login  Now  
+                    h4#signup 
+                        a(href='/') 
+                            h3 Create account
+                        a(href='/')
+                            p#forgot_password Forgot password? 
+                    
+            
+        footer#foot
+            h4#follow follow us on
+            a(href='https://www.instagram.com' target='_blank')
+            img#inst.foot_logo(src='../static/instagram2.png' alt='')
+            a(href='https://www.facebook.com' target='_blank')
+            img#face.foot_logo(src='../static/facebook.png' alt='')
+            a(href='https://www.linkedin.com' target='_blank')
+            img#link.foot_logo(src='../static/linkedin.png' alt='')
+            a(href='https://www.twitter.com' target='_blank')
+            img#twit.foot_logo(src='../static/twitter.png' alt='')
+            a(href='https://www.youtube.com' target='_blank')
+            img#yout.foot_logo(src='../static/youtube.png' alt='')
+            h4#copy Super Dance Academy &copy; 2021

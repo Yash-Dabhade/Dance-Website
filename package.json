@@ -1,0 +1,24 @@
+{
+  "name": "dance-website",
+  "version": "1.0.0",
+  "description": "One of the best dance website available in the whole world.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Super",
+    "Awesome",
+    "Amazing",
+    "Dance",
+    "Dancer"
+  ],
+  "author": "Yash Dabhade",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.2",
+    "pug": "^3.0.2"
+  }
+}
