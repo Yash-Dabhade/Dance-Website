@@ -1,7 +1,7 @@
 # Super Dance Academy
 
 Super Dance Academy is website made for promotion of dance coaching centers.
-It is very attractive and beutiful website with animations and styling.
+It is very attractive and beautiful website with animations and styling.
 
 ## Tech Stack
 
