@@ -39,8 +39,13 @@ After that open localhost.
 ## Screenshots
 
 ![Homepage](./screenshots/1.png)
+
 ![Homepage](./screenshots/2.png)
+
 ![Homepage](./screenshots/3.png)
+
 ![LoginForm](./screenshots/4.png)
+
 ![Footer](./screenshots/5.png)
+
 ![ContactForm](./screenshots/6.png)
